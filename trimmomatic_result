@@ -1,0 +1,12 @@
+### Anotações de linhas de comando usada para filtrar sequências de DNA ###
+
+java -jar \Users\luana\Downloads\Trimmomatic-0.39\Trimmomatic-0.39\trimmomatic-0.39.jar SE C:\Users\luana\Downloads\Desafio\4.Questoes_de_bioinformática\0.Sequencias\F3D0_S188_L001_R1_001.fastq trimm_F3D0_S188_L001_R1_001.fq.gz LEADING:3 TRAILING:6 SLIDINGWINDOW:4:15 MINLEN:36 MAXINFO:150:0.8
+
+#### Resultado ### 
+
+TrimmomaticSE: Started with arguments:
+ C:\Users\luana\Downloads\Desafio\4.Questoes_de_bioinformática\0.Sequencias\F3D0_S188_L001_R1_001.fastq trimm_F3D0_S188_L001_R1_001.fq.gz LEADING:3 TRAILING:6 SLIDINGWINDOW:4:15 MINLEN:36 MAXINFO:150:0.8
+Automatically using 4 threads
+Quality encoding detected as phred33
+Input Reads: 7793 Surviving: 7791 (99,97%) Dropped: 2 (0,03%)
+TrimmomaticSE: Completed successfully
