@@ -1,3 +1,0 @@
-git branch -m 3-analise-de-comunidades-microbianas <BRANCH>
-git fetch origin
-git branch -u origin/<BRANCH> <BRANCH>
