@@ -22,7 +22,7 @@ A partir disso eu pensei em filtrar RefSeq do NCBI do gene 16S e usar o EMBOSS p
 
 ### Desafio 2: Análise do banco de dados 
 
-Fiz o stript em python usando a biblioteca Matplotlib + biopython (so faltou concluir a primeira etapa). Em relação a árvore filogenética, gerei uma no próprio Clustal Omega no site do EMBL-EBI, mas optem por não fazer o upload pq não faz muito sentido pois o objetivo era a frequência taxonômica, não a relação filogenética entre as sequências. Pensei em fazer no python mas posteriormente percebi que no R seria mais facil, mas fica para a próxima. 
+Fiz o script em python usando a biblioteca Matplotlib + biopython (so faltou concluir a primeira etapa). Em relação a árvore filogenética, gerei uma no próprio Clustal no site do EMBL-EBI, mas optei por não fazer o upload pq não faz muito sentido pois o objetivo era a frequência taxonômica, não a relação filogenética entre as sequências. Pensei em fazer no python mas posteriormente percebi que no R seria mais facil, mas fica para a próxima. 
 
 ### Desafio 3: análise de dados de comunidades microbianas
 
